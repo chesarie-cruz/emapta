@@ -1,19 +1,17 @@
 <template>
   <v-app>
-    <v-main>
-      <task-list></task-list>
-    </v-main>
+      <tasks-index></tasks-index>
   </v-app>
 </template>
 
 <script>
-import TaskList from './components/tasks/TaskList.vue';
+import TasksIndex from './views/tasks/Task-Index.vue';
 
 export default {
   name: 'App',
 
   components: {
-    TaskList,
+    TasksIndex,
   },
 
   data: () => ({
